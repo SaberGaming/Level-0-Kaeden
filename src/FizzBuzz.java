@@ -1,22 +1,31 @@
 
 public class FizzBuzz {
 	public static void main(String[] args) {
-		for (int i = 0; i < 20; i++) {
+		
+		for (int i = 1; i <= 20; i++) {
+			if(i%5==0 && i%3==0){
+				System.out.println("FizzBuzz");
+				}
 			
-			if(i%3==0){
+			else if(i%3==0){
 				System.out.println("Fizz");
 			}
-			if (i%5==0) {
+			else if (i%5==0) {
 				System.out.println("Buzz");
+			}
+			else{
+			System.out.println(i);
 			}
 		}
 		//Add number printing
+		
+		
+		
+		
 		//Add FizzBuzz
-		}
-		
-			
+	}
 	
-		
-		}	
+	}
+	
 		
 
