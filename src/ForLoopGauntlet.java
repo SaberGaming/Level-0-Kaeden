@@ -2,20 +2,18 @@ import javax.print.attribute.IntegerSyntax;
 import javax.swing.JOptionPane;
 
 public class ForLoopGauntlet {
-	public static void main(String[] args) {
-		
-	
-	//goinUp
-	//goinDown
-	//goinUpE
-	//goinUpO
-	//goinUp500
-	//goinUp777
-	//year
-	//nested
-	//threebythree
-	tenbyten();
-	//stars
+	public static void main(String[] args) {		
+	//goinUp();
+	//goinDown();
+	//goinUpE();
+	//goinUpO();
+	//goinUp500();
+	//goinUp777();
+	//year();
+	//nested();
+	//threebythree();
+	//tenbyten();
+	//stars();
 	}
 	// UP
 	static void goinUp() {
@@ -33,13 +31,10 @@ public class ForLoopGauntlet {
 
 	// Even UP
 	static void goinUpE() {
-		for (int e = 2; e <= 100; e++) {
-			if (e % 2 == 0) {
+		for (int e = 0; e <= 100; e += 2) {		
 				System.out.println(e);
-			}
 		}
 	}
-
 	// ODD UP
 	static void goinUpO() {
 		for (int o = 2; o <= 100; o++) {
